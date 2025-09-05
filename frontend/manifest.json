@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Tracklist Generator",
+    "version": "1.0",
+    "description": "Automatically generates a tracklist for YouTube videos.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    },
+    "host_permissions": [
+      "https://*.youtube.com/*"
+    ]
+  }
